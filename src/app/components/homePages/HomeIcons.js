@@ -1,3 +1,5 @@
+'use client'
+
 //YEAH KAM KA HA 
 import React, { useRef } from "react";
 import { useGSAP } from "@gsap/react";

@@ -1,3 +1,5 @@
+'use client'
+
 import { div } from 'framer-motion/client'
 import React, { useRef, useState } from 'react'
 
