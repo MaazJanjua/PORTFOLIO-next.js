@@ -40,11 +40,11 @@ const Page = () => {
             x: (window.innerWidth / 2) - star.getBoundingClientRect().right, // move to center horizontally
             y: (window.innerHeight / 2) - star.getBoundingClientRect().top, // move to center vertically
             ease: "power2.inOut",
-            opacity: .1
+            opacity: 0
         })
         // 2 sec wait + animation
         tl.to(introRef.current, {
-            y: '-140%',
+            y: '-100%',
             duration: 1,
             // delay: .1,
             ease: 'power4.inOut'
