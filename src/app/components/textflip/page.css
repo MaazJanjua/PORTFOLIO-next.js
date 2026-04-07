@@ -1,0 +1,8 @@
+#quoteSection {
+  perspective: 1500px;   /* 👈 increase karo */
+}
+
+.rotateText {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;  /* 👈 ADD THIS */
+}
